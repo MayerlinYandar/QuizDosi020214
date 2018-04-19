@@ -24,11 +24,11 @@ public class Json {
             JSONObject item = jsonArray.getJSONObject(i);
             JSONObject item2= item.getJSONObject("address");
             Post post = new Post();
-            post.setId(item.getInt("id"));
+
             post.setName(item.getString("name"));
-            post.setUsername(item.getInt("username"));
+            post.setUsername(item.getString("username"));
             post.setEmail(item.getString("email"));
-            post.setStreet(item2.getInt("street"));
+            post.setStreet(item2.getString("street"));
 
             postList.add(post);
 

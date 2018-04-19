@@ -6,20 +6,11 @@ package com.example.aula7.quizdosi020214.Models;
 
 public class Post {
 
-    private int id;
+
     private String name;
-    private int username;
+    private String username;
     private String email;
-    private int street;
-
-
-    public int getId() {
-        return id;
-    }
-
-    public void setId(int id) {
-        this.id = id;
-    }
+    private String street;
 
     public String getName() {
         return name;
@@ -29,11 +20,11 @@ public class Post {
         this.name = name;
     }
 
-    public int getUsername() {
+    public String getUsername() {
         return username;
     }
 
-    public void setUsername(int username) {
+    public void setUsername(String username) {
         this.username = username;
     }
 
@@ -45,11 +36,11 @@ public class Post {
         this.email = email;
     }
 
-    public int getStreet() {
+    public String getStreet() {
         return street;
     }
 
-    public void setStreet(int street) {
+    public void setStreet(String street) {
         this.street = street;
     }
 }
