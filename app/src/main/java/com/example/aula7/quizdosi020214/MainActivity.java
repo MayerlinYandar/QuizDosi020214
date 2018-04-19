@@ -74,7 +74,6 @@ public class MainActivity extends AppCompatActivity {
         Toast.makeText(this, String.valueOf(postList.size()), Toast.LENGTH_SHORT).show();
 
         for(Post str : postList) {
-            textView.append(str.getId() + "\n");
             textView.append(str.getName() + "\n");
             textView.append(str.getUsername() + "\n");
             textView.append(str.getEmail() + "\n");
